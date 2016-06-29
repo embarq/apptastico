@@ -1,0 +1,17 @@
+{
+  "name": "apptastico",
+  "description": "Test template",
+  "main": "index.js",
+  "authors": [
+    "emb"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
