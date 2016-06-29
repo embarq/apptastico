@@ -1,1 +1,6 @@
-@import 'components/test-component';
+@import 'fonts/fonts';
+@import 'helpers/variables';
+
+body {
+	font-family: $primary-font;
+}
