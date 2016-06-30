@@ -1,11 +1,13 @@
-@import 'helpers/variables';
-@import 'helpers/reset';
-@import 'helpers/clearfix';
-@import 'fonts/fonts';
-@import 'typography/paragraphs';
-@import 'typography/headings';
-@import 'components/button';
-@import 'widgets/adventages';
+@import './helpers';
+// clearfix
+// reset
+// variables
+@import './typography';
+// headings
+// paragraphs
+@import './widgets';
+// adventages
+// feeds
 
 body {
     font-family: $primary-font;

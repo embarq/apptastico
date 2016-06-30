@@ -1,0 +1,9 @@
+@import './blog-feed';
+@import './twitter-feed';
+
+.feeds {
+	.blog-feed {
+		float: left;
+		width: 400px;
+	}
+}

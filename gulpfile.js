@@ -5,7 +5,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync');
 
 gulp.task('default',['sass', 'sync'], function() {
-	gulp.watch("*.html", browserSync.reload);
+	gulp.watch(["components/*.html", "*.html"], browserSync.reload);
 	gulp.watch("styles/**/*.scss", ["sass"]);
 });
 

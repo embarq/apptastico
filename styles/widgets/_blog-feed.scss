@@ -1,0 +1,22 @@
+@import '../components/blog-feed-entry';
+
+.blog-feed {
+
+	h3:before {
+		content: "";
+		display: block;
+		background: url(../styles/assets/icons/rss.jpg) no-repeat;
+		width: 20px;
+		height: 20px;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.blog-feed-entry {
+		margin-top: 28px;
+	}
+
+	.primary-link {
+		font-size: 13px;
+	}
+}
