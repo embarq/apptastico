@@ -1,6 +1,15 @@
+@import 'helpers/reset';
+@import 'helpers/clearfix';
 @import 'fonts/fonts';
+@import 'typography/paragraphs';
+@import 'typography/headings';
 @import 'helpers/variables';
+@import 'components/button';
+@import 'components/adventage';
 
 body {
 	font-family: $primary-font;
+	font-weight: lighter;
+	width: 1200px;
+	margin: 0 auto;
 }

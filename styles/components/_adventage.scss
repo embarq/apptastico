@@ -1,0 +1,50 @@
+.adventages {
+	margin: 0 80px;
+
+	.adventage {
+		float: left;
+	}
+
+	.adventage:nth-child(2) {
+		margin: 0 24px
+	}
+}
+
+.adventage {
+	width: 310px;
+	text-align: center;
+	color: #8395a2;
+
+	h2 {
+		font-weight: 400;
+		margin-top: 25px;
+	}
+
+	p {
+		margin-top: -8px;
+		margin-bottom: 36px;
+		font-size: 14px;
+		line-height: calc(1em + 5px);
+	}
+
+	.icon-wrapper {
+		border: 5px solid #8395a2;
+		width: 120px;
+		border-radius: 50%;
+		margin: 0 auto;
+		position: relative;
+		height: 120px;
+
+		.icon {
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	.button {
+		margin: 0 auto;
+	}
+}
