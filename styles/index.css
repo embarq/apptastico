@@ -1,9 +1,3 @@
-.clearfix::before,
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both; }
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,6 +35,16 @@ table {
 
 a {
   text-decoration: none; }
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+body {
+  width: 1200px;
+  margin: 0 auto; }
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -90,8 +94,9 @@ a {
   font-weight: 300;
   font-style: normal; }
 
-.primary-link {
-  color: #3c92d0; }
+body {
+  font-family: "Helvetica Neue";
+  font-weight: lighter; }
 
 h2 {
   font-size: 36px;
@@ -104,6 +109,9 @@ h3 {
 h4 {
   font-size: 15px;
   color: #5c5c5c; }
+
+.primary-link {
+  color: #3c92d0; }
 
 .text-muted {
   color: #a4a4a4; }
@@ -161,64 +169,111 @@ h4 {
   .adventages .adventage:nth-child(2) {
     margin: 0 24px; }
 
-.blog-feed-entry {
+.feed-entry, .blog-feed-entry, .twitter-feed-entry {
+  color: #888888;
   font-size: 13px; }
-  .blog-feed-entry .blog-feed-entry-image {
-    float: left;
-    margin-right: 25px;
-    border: 3px solid #fff;
-    box-shadow: 0 1px 2px #ccc; }
-  .blog-feed-entry .blog-feed-entry-content h4 {
-    margin-bottom: calc((23px - 1em) / 2); }
-  .blog-feed-entry .blog-feed-entry-content p {
-    color: #888888;
-    line-height: 23px; }
-  .blog-feed-entry .blog-feed-entry-content .date {
+  .feed-entry .date, .blog-feed-entry .date, .twitter-feed-entry .date {
     font-size: 11px;
     line-height: 20px; }
+  .feed-entry:not(:last-child), .blog-feed-entry:not(:last-child), .twitter-feed-entry:not(:last-child) {
+    margin-bottom: 28px; }
 
-.blog-feed h3:before {
+.feed h3, .blog-feed h3, .twitter-feed h3 {
+  margin-bottom: 19px; }
+
+.feed h3:before, .blog-feed h3:before, .twitter-feed h3:before {
   content: "";
   display: block;
-  background: url(../styles/assets/icons/rss.jpg) no-repeat;
-  width: 20px;
-  height: 20px;
+  background-repeat: no-repeat;
+  width: 0;
+  height: 0;
   float: left;
   margin-right: 10px; }
 
-.blog-feed .blog-feed-entry {
-  margin-top: 28px; }
+.blog-feed-entry:first-child {
+  color: red; }
+
+.blog-feed-entry .blog-feed-entry-image {
+  float: left;
+  margin-right: 30px;
+  margin-top: 2px;
+  border: 3px solid #fff;
+  box-shadow: 0 1px 2px #ccc; }
+
+.blog-feed-entry .blog-feed-entry-content h4 {
+  margin-bottom: calc((23px - 1em) / 2); }
+
+.blog-feed-entry .blog-feed-entry-content p {
+  line-height: 23px; }
+
+.blog-feed h3:before {
+  background-image: url(../styles/assets/icons/rss.jpg);
+  width: 20px;
+  height: 20px; }
 
 .blog-feed .primary-link {
   font-size: 13px; }
 
 .twitter-feed-entry {
-  font-size: 13px;
-  color: #888888; }
+  line-height: 2em; }
   .twitter-feed-entry .tweet-author {
     color: #515151; }
-  .twitter-feed-entry .date {
-    font-size: 11px;
-    line-height: 20px; }
+
+.twitter-feed h3 {
+  margin-bottom: 12px; }
 
 .twitter-feed h3:before {
-  content: "";
-  display: block;
-  background: url(../styles/assets/icons/twitter.jpg) no-repeat;
+  background-image: url(../styles/assets/icons/twitter.jpg);
   width: 26px;
-  height: 22px;
-  float: left;
-  margin-right: 10px; }
+  height: 22px; }
 
-.twitter-feed .twitter-feed-entry {
-  margin-top: 28px; }
+.feeds .blog-feed, .feeds .twitter-feed {
+  float: left; }
 
 .feeds .blog-feed {
-  float: left;
-  width: 400px; }
+  width: 478px;
+  margin-right: 110px; }
 
-body {
-  font-family: "Helvetica Neue";
-  font-weight: lighter;
-  width: 1200px;
-  margin: 0 auto; }
+.feeds .twitter-feed {
+  width: 370px; }
+
+.social-link-with-icon, .social-link.fb, .social-link.tw, .social-link.li, .social-link.db {
+  text-indent: -9999;
+  font-size: 0;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat; }
+
+.social-link.fb {
+  background-image: url(../styles/assets/icons/social/fb.jpg); }
+
+.social-link.tw {
+  background-image: url(../styles/assets/icons/social/tw.jpg); }
+
+.social-link.li {
+  background-image: url(../styles/assets/icons/social/li.jpg); }
+
+.social-link.db {
+  background-image: url(../styles/assets/icons/social/db.jpg); }
+
+/* 
+<ul class="social-links clearfix">
+	<li>
+		<a href="facebook.com" class="social-link fb">facebook.com</a>
+	</li>
+	<li>
+		<a href="twitter.com" class="social-link tw">twitter.com</a>
+	</li>
+	<li>
+		<a href="linkedin.com" class="social-link li">linkedin.com</a>
+	</li>
+	<li>
+		<a href="dribble.com" class="social-link db">dribble.com</a>
+	</li>
+</ul>
+ */
+.social-links li {
+  float: left; }
+  .social-links li:not(:last-child) {
+    margin-right: 5px; }

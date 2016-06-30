@@ -1,17 +1,5 @@
-@import './helpers';
-// clearfix
-// reset
-// variables
-@import './typography';
-// headings
-// paragraphs
-@import './widgets';
-// adventages
-// feeds
-
-body {
-    font-family: $primary-font;
-    font-weight: lighter;
-    width: 1200px;
-    margin: 0 auto;
-}
+@import 'base/base';
+@import 'base/typography';
+@import 'widgets/adventages';
+@import 'widgets/feeds';
+@import 'widgets/social-links';

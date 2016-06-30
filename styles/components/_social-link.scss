@@ -1,0 +1,27 @@
+.social-link-with-icon {
+	text-indent: -9999;
+	font-size: 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+}
+
+.social-link {
+	&.fb {
+		@extend .social-link-with-icon;
+		background-image: url(../styles/assets/icons/social/fb.jpg);
+	}
+	&.tw {
+		@extend .social-link-with-icon;
+		background-image: url(../styles/assets/icons/social/tw.jpg);
+	}
+	&.li {
+		@extend .social-link-with-icon;
+		background-image: url(../styles/assets/icons/social/li.jpg);
+	}
+	&.db {
+		@extend .social-link-with-icon;
+		background-image: url(../styles/assets/icons/social/db.jpg);
+	}
+}

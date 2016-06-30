@@ -6,4 +6,8 @@
 		font-size: 11px;
 		line-height: 20px;
 	}
+
+	&:not(:last-child) {
+		margin-bottom: 28px;
+	}
 }

@@ -1,13 +1,20 @@
+// <article class="twitter-feed-entry">
+// 	<span class="tweet-author">@Apptastico:</span>
+// 	<span class="tweet-text">In <a href="#" class="primary-link">pellentesque.com</a> faucibus vestibulum. Nulla at nulla justo, eget Duis aliquet egestas</span>
+// 	<span class="primary-link">#purus</span>
+// 	<span>&nbsp;</span>
+// 	<span class="tweet-text">in</span>
+// 	<span>&nbsp;</span>
+// 	<span class="primary-link">#blandit.</span><br>
+// 	<span class="date">01/01/2016 - 10:30</span>
+// </article>
+
 .twitter-feed-entry {
-	font-size: 13px;
-	color: #888888;
+	@extend .feed-entry;
+
+	line-height: 2em;
 
 	.tweet-author {
 		color: #515151;
-	}
-
-	.date {
-		font-size: 11px;
-		line-height: 20px;
 	}
 }

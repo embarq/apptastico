@@ -1,19 +1,12 @@
 @import '../components/blog-feed-entry';
 
 .blog-feed {
-
+	@extend .feed;
+	
 	h3:before {
-		content: "";
-		display: block;
-		background: url(../styles/assets/icons/rss.jpg) no-repeat;
+		background-image: url(../styles/assets/icons/rss.jpg);
 		width: 20px;
 		height: 20px;
-		float: left;
-		margin-right: 10px;
-	}
-
-	.blog-feed-entry {
-		margin-top: 28px;
 	}
 
 	.primary-link {

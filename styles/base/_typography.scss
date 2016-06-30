@@ -1,0 +1,39 @@
+@import '../fonts/fonts';
+$primary-font: 'Helvetica Neue';
+$secondary-font: Arial;
+$primary-color: #5096ce;
+$secondary-color: #8395a2;
+$additional-color: #4b5a65;
+
+body {
+  font-family: $primary-font;
+  font-weight: lighter;
+}
+
+h2 {
+	font-size: 36px;
+	color: #4c5b66;
+}
+
+h3 {
+	font-size: 20px;
+	color: $additional-color;
+}
+
+h4 {
+	font-size: 15px;
+	color: #5c5c5c;
+}
+
+.primary-link {
+	color: #3c92d0;
+}
+
+.text-muted {
+	color: #a4a4a4;
+}
+
+.date {
+	color: #b0b0b0;
+	font-family: $secondary-font;
+}

@@ -1,3 +1,4 @@
+// Mayer reset
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -35,4 +36,18 @@ table {
 }
 a {
 	text-decoration: none;
+}
+
+// Clearfix
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+// Base
+body {
+	width: 1200px;
+	margin: 0 auto;
 }

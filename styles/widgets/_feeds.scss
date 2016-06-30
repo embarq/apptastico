@@ -1,9 +1,18 @@
+@import './feed-prototype';
 @import './blog-feed';
 @import './twitter-feed';
 
 .feeds {
-	.blog-feed {
+	.blog-feed, .twitter-feed {
 		float: left;
-		width: 400px;
+	}
+
+	.blog-feed {
+		width: 478px;
+		margin-right: 110px;
+	}
+
+	.twitter-feed {
+		width: 370px;
 	}
 }
