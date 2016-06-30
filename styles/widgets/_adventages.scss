@@ -1,0 +1,11 @@
+@import '../components/adventage';
+
+.adventages {
+    margin: 0 80px;
+    .adventage {
+        float: left;
+    }
+    .adventage:nth-child(2) {
+        margin: 0 24px;
+    }
+}

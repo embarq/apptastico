@@ -1,147 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Apptastico</title>
-	<link rel="stylesheet" href="styles/index.css">
-</head>
-<body>
-	<header>
-		<img src="assets/logo.png" alt="Apptastico Logo" class="logo" />
-		<nav>
-			<ul>
-				<li class="nav-item">Home</li>
-				<li class="nav-item">About</li>
-				<li class="nav-item">Work</li>
-				<li class="nav-item">Contact</li>
+	<head>
+		<meta charset="UTF-8">
+		<title>Apptastico</title>
+		<link rel="stylesheet" href="styles/index.css" />
+	</head>
+	<body>
+		<header>
+			<img src="assets/logo.png" alt="Apptastico Logo" class="logo" />
+			<nav>
+				<ul>
+					<li class="nav-item">Home</li>
+					<li class="nav-item">About</li>
+					<li class="nav-item">Work</li>
+					<li class="nav-item">Contact</li>
+				</ul>
+			</nav>
+			<div class="description">
+				<img src="assets/" alt="iPhone Mockup" class="iphone-mockup" />
+				<section>
+					<h1>We design iOS apps</h1>
+					<p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime totam, quia quibusdam esse quo aliquid dolorum ipsum itaque ducimus corporis. Laudantium impedit animi, at reiciendis aperiam quisquam commodi, consequuntur similique.</p>
+					<p class="text-muted">Necessitatibus ad accusantium iure nihil fuga sapiente magni rerum asperiores quas? Corporis quas aliquam ratione at. Dicta numquam nostrum, quae explicabo, recusandae nisi officia sint eum! Fuga numquam rerum provident.</p>
+					<div class="description-action-wrapper">
+						<a href="#" class="button">Request a quote</a>
+						<a href="#" class="primary">See our recent work</a>
+					</div>
+				</section>
+			</div>
+		</header>
+		<main>
+			<div class="promo">
+				<ul>
+					<li>
+						<img src="assets/promo/deviant.png" alt="deviant">
+					</li>
+					<li>
+						<img src="assets/promo/ebay.png" alt="ebay">
+					</li>
+					<li>
+						<img src="assets/promo/mc.png" alt="mcdonalds">
+					</li>
+					<li>
+						<img src="assets/promo/addidas.png" alt="addidas">
+					</li>
+					<li>
+						<img src="assets/promo/ea.png" alt="electronic-arts">
+					</li>
+				</ul>
+			</div>
+			<div class="adventages clearfix">
+				<!-- Emmet snippet:
+				section.advetage*3>((div.icon-wrapper+img[src="assets/icons/$.png"].icon)+h1+(p.text-muted>lorem)+a[href="#"].button{Read more}) -->
+				<section class="adventage">
+					<div class="icon-wrapper">
+						<img src="styles/assets/icons/ui.png" alt="Engaging interfaces" class="icon">
+					</div>
+					<h2>Engaging interfaces</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+					<a href="#" class="button">Read more</a>
+				</section>
+				<section class="adventage">
+					<div class="icon-wrapper">
+						<img src="styles/assets/icons/ux.png" alt="Usable designs" class="icon">
+					</div>
+					<h2>Usable designs</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+					<a href="#" class="button">Read more</a>
+				</section>
+				<section class="adventage">
+					<div class="icon-wrapper"><img src="styles/assets/icons/development.png" alt="Solid development" class="icon"></div>
+					<h2>Solid development</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+					<a href="#" class="button">Read more</a>
+				</section>
+			</div> <!-- advantages -->
+			<div class="promo-list">
+				<ul class="project-list">
+					<!-- li.project*8>a>img[src="assets/projects/project-$.png" alt="project-$"] -->
+					<li class="project">
+						<a href="#">
+							<img src="assets/projects/project-1.png" alt="project-1">
+						</a>
+						<a href="#">
+							<img src="assets/projects/project-2.png" alt="project-2">
+						</a>
+						<a href="#">
+							<img src="assets/projects/project-3.png" alt="project-3">
+						</a>
+						<a href="#">
+							<img src="assets/projects/project-4.png" alt="project-4">
+						</a>
+						<a href="#">
+							<img src="assets/projects/project-5.png" alt="project-5">
+						</a>
+						<a href="#">
+							<img src="assets/projects/project-6.png" alt="project-6">
+						</a>
+						<a href="#">
+							<img src="assets/projects/project-7.png" alt="project-7">
+						</a>
+						<a href="#">
+							<img src="assets/projects/project-8.png" alt="project-8">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="feeds">
+				<section class="blog-feed">
+					<h2 class="feed-heading">From our blog</h2>
+					<!-- article.feed*3>img[src="assets/test/feed/$.png" alt="test-img"].feed-img+.feed-content>(h4>lorem5)+(p>lorem+span{&nbsp;}+a[href="#"].info-link{Read more})+(tt.feed-date{01/01/2016 - 10:30 AM}) -->
+					<article class="feed-entry">
+						<img src="assets/test/feed/1.png" alt="test-img" class="feed-img">
+						<div class="feed-content">
+							<h4>Lorem ipsum dolor sit amet.</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia nulla quis dicta dolore, ullam, magni aut harum id esse perferendis quaerat velit voluptas suscipit molestiae itaque sunt, in ut!<span>&nbsp;</span><a href="#" class="info-link">Read more</a></p>
+							<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
+						</div>
+					</article>
+					<article class="feed-entry">
+						<img src="assets/test/feed/2.png" alt="test-img" class="feed-img">
+						<div class="feed-content">
+							<h4>Magni a aspernatur optio sunt.</h4>
+							<p>Deserunt veniam, sint ullam dolorum, amet, dolore, praesentium id cupiditate atque saepe nam quaerat tempore! Sunt soluta aut accusamus odio molestiae ipsam, deleniti quasi, voluptates, porro, omnis praesentium! Sunt, aut?<span>&nbsp;</span><a href="#" class="info-link">Read more</a></p>
+							<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
+						</div>
+					</article>
+					<article class="feed-entry">
+						<img src="assets/test/feed/3.png" alt="test-img" class="feed-img">
+						<div class="feed-content">
+							<h4>Mollitia hic, repudiandae iure. Ducimus.</h4>
+							<p>Quod voluptatum fuga, natus eligendi iste. Et ipsa doloribus beatae voluptatibus a aspernatur animi consequatur quibusdam porro adipisci modi eius est libero fugiat autem, dolore aut dolorum praesentium voluptas eum.<span>&nbsp;</span><a href="#" class="info-link">Read more</a></p>
+							<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
+						</div>
+					</article>
+				</section> <!-- feed -->
+				<section class="feed twitter-feed">
+					<!-- article.feed-entry*3>(strong{@lorem:&nbsp;})+(span.feed-message>lorem20+span{&nbsp;}+a[href="#"].info-link{lorem.com})+(tt.feed-date{01/01/2016 - 10:30 AM}) -->
+					<article class="feed-entry">
+						<strong>@lorem:&nbsp;</strong>
+						<span class="feed-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, architecto, dicta. Deleniti, asperiores, dolor. Nihil reprehenderit, velit deserunt vitae harum.<span>&nbsp;</span><a href="#" class="info-link">lorem.com</a></span>
+						<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
+					</article>
+					<article class="feed-entry">
+						<strong>@lorem:&nbsp;</strong>
+						<span class="feed-message">Cumque repudiandae vitae sed quibusdam quasi, veritatis quisquam, alias optio fugit aut repellendus ad consectetur molestiae laudantium, autem atque nostrum!<span>&nbsp;</span><a href="#" class="info-link">lorem.com</a></span>
+						<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
+					</article>
+					<article class="feed-entry">
+						<strong>@lorem:&nbsp;</strong>
+						<span class="feed-message">Modi perferendis consequuntur, officia vitae adipisci animi rem qui ipsam a, asperiores officiis quisquam numquam omnis beatae dolor, accusantium, iusto.<span>&nbsp;</span><a href="#" class="info-link">lorem.com</a></span>
+						<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
+					</article>
+				</section> <!-- twitter-feed -->
+			</div> <!-- feeds -->
+		</main>
+		<footer>
+			<p class="copy">&copy;&nbsp;Christoffer Jensen 2013</p>
+			<ul class="social">
+				<li>
+					<a href="facebook.com">
+						<img src="assets/social/facebook.png" alt="Facebook icon">
+					</a>
+				</li>
+				<li>
+					<a href="twitter.com">
+						<img src="assets/social/twitter.png" alt="Twitter icon">
+					</a>
+				</li>
+				<li>
+					<a href="linkedin.com">
+						<img src="assets/social/linkedin.png" alt="LinkedIn icon">
+					</a>
+				</li>
+				<li>
+					<a href="foursquare.com">
+						<img src="assets/social/foursquare.png" alt="Foursquare icon">
+					</a>
+				</li>
 			</ul>
-		</nav>
-		<div class="description">
-			<img src="assets/" alt="iPhone Mockup" class="iphone-mockup" />
-			<section>
-				<h1>We design iOS apps</h1>
-				<p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime totam, quia quibusdam esse quo aliquid dolorum ipsum itaque ducimus corporis. Laudantium impedit animi, at reiciendis aperiam quisquam commodi, consequuntur similique.</p>
-				<p class="text-muted">Necessitatibus ad accusantium iure nihil fuga sapiente magni rerum asperiores quas? Corporis quas aliquam ratione at. Dicta numquam nostrum, quae explicabo, recusandae nisi officia sint eum! Fuga numquam rerum provident.</p>
-				<div class="description-action-wrapper">
-					<a href="#" class="button">Request a quote</a>
-					<a href="#" class="primary">See our recent work</a>
-				</div>
-			</section>
-		</div>
-	</header>
-	<main>
-		<section class="promo">
-			<ul>
-				<li><img src="assets/promo/deviant.png" alt="deviant"></li>
-				<li><img src="assets/promo/ebay.png" alt="ebay"></li>
-				<li><img src="assets/promo/mc.png" alt="mcdonalds"></li>
-				<li><img src="assets/promo/addidas.png" alt="addidas"></li>
-				<li><img src="assets/promo/ea.png" alt="electronic-arts"></li>
-			</ul>
-		</section>
-		<div class="adventages clearfix">
-			<!-- 
-			Emmet snippet:
-			section.advetage*3>((div.icon-wrapper+img[src="assets/icons/$.png"].icon)+h1+(p.text-muted>lorem)+a[href="#"].button{Read more}) 
-		-->
-		
-			<section class="adventage">
-				<div class="icon-wrapper">
-					<img src="styles/assets/icons/ui.png" alt="Engaging interfaces" class="icon">
-				</div>
-				<h2>Engaging interfaces</h2>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
-				<a href="#" class="button">Read more</a>
-			</section>
-			<section class="adventage">
-				<div class="icon-wrapper">
-					<img src="styles/assets/icons/ux.png" alt="Usable designs" class="icon">
-				</div>
-				<h2>Usable designs</h2>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
-				<a href="#" class="button">Read more</a>
-			</section>
-			<section class="adventage">
-				<div class="icon-wrapper"><img src="styles/assets/icons/development.png" alt="Solid development" class="icon"></div>
-				<h2>Solid development</h2>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
-				<a href="#" class="button">Read more</a>
-			</section>
-			<!-- <div class="clearfix"></div> -->
-	</div> <!-- advantages -->
-	<div class="promo-list">
-		<ul class="project-list">
-			<!-- li.project*8>a>img[src="assets/projects/project-$.png" alt="project-$"] -->
-			<li class="project">
-				<!-- FIXME -->
-				<a href="#"><img src="assets/projects/project-1.png" alt="project-1"></a>
-				<a href="#"><img src="assets/projects/project-2.png" alt="project-2"></a>
-				<a href="#"><img src="assets/projects/project-3.png" alt="project-3"></a>
-				<a href="#"><img src="assets/projects/project-4.png" alt="project-4"></a>
-				<a href="#"><img src="assets/projects/project-5.png" alt="project-5"></a>
-				<a href="#"><img src="assets/projects/project-6.png" alt="project-6"></a>
-				<a href="#"><img src="assets/projects/project-7.png" alt="project-7"></a>
-				<a href="#"><img src="assets/projects/project-8.png" alt="project-8"></a>
-			</li>
-		</ul>
-	</div>
-	<div class="feeds">
-		<section class="blog-feed">
-			<h2 class="feed-heading">From our blog</h2>
-			<!-- article.feed*3>img[src="assets/test/feed/$.png" alt="test-img"].feed-img+.feed-content>(h4>lorem5)+(p>lorem+span{&nbsp;}+a[href="#"].info-link{Read more})+(tt.feed-date{01/01/2016 - 10:30 AM}) -->
-			<article class="feed-entry">
-				<img src="assets/test/feed/1.png" alt="test-img" class="feed-img">
-				<div class="feed-content">
-					<h4>Lorem ipsum dolor sit amet.</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia nulla quis dicta dolore, ullam, magni aut harum id esse perferendis quaerat velit voluptas suscipit molestiae itaque sunt, in ut!<span>&nbsp;</span><a href="#" class="info-link">Read more</a></p>
-					<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
-				</div>
-			</article>
-			<article class="feed-entry">
-				<img src="assets/test/feed/2.png" alt="test-img" class="feed-img">
-				<div class="feed-content">
-					<h4>Magni a aspernatur optio sunt.</h4>
-					<p>Deserunt veniam, sint ullam dolorum, amet, dolore, praesentium id cupiditate atque saepe nam quaerat tempore! Sunt soluta aut accusamus odio molestiae ipsam, deleniti quasi, voluptates, porro, omnis praesentium! Sunt, aut?<span>&nbsp;</span><a href="#" class="info-link">Read more</a></p>
-					<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
-				</div>
-			</article>
-			<article class="feed-entry">
-				<img src="assets/test/feed/3.png" alt="test-img" class="feed-img">
-				<div class="feed-content">
-					<h4>Mollitia hic, repudiandae iure. Ducimus.</h4>
-					<p>Quod voluptatum fuga, natus eligendi iste. Et ipsa doloribus beatae voluptatibus a aspernatur animi consequatur quibusdam porro adipisci modi eius est libero fugiat autem, dolore aut dolorum praesentium voluptas eum.<span>&nbsp;</span><a href="#" class="info-link">Read more</a></p>
-					<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
-				</div>
-			</article>
-		</section> <!-- feed -->
-		<section class="feed twitter-feed">
-			<!-- article.feed-entry*3>(strong{@lorem:&nbsp;})+(span.feed-message>lorem20+span{&nbsp;}+a[href="#"].info-link{lorem.com})+(tt.feed-date{01/01/2016 - 10:30 AM}) -->
-			<article class="feed-entry">
-				<strong>@lorem:&nbsp;</strong>
-				<span class="feed-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, architecto, dicta. Deleniti, asperiores, dolor. Nihil reprehenderit, velit deserunt vitae harum.<span>&nbsp;</span><a href="#" class="info-link">lorem.com</a></span>
-				<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
-			</article>
-			<article class="feed-entry">
-				<strong>@lorem:&nbsp;</strong>
-				<span class="feed-message">Cumque repudiandae vitae sed quibusdam quasi, veritatis quisquam, alias optio fugit aut repellendus ad consectetur molestiae laudantium, autem atque nostrum!<span>&nbsp;</span><a href="#" class="info-link">lorem.com</a></span>
-				<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
-			</article>
-			<article class="feed-entry">
-				<strong>@lorem:&nbsp;</strong>
-				<span class="feed-message">Modi perferendis consequuntur, officia vitae adipisci animi rem qui ipsam a, asperiores officiis quisquam numquam omnis beatae dolor, accusantium, iusto.<span>&nbsp;</span><a href="#" class="info-link">lorem.com</a></span>
-				<tt class="feed-date">01/01/2016 - 10:30 AM</tt>
-			</article>
-		</section> <!-- twitter-feed -->
-	</div> <!-- feeds -->
-</main>
-<footer>
-	<p class="copy">&copy;&nbsp;Christoffer Jensen 2013</p>
-	<ul class="social">
-		<li><a href="facebook.com"><img src="assets/social/facebook.png" alt="Facebook icon"></a></li>
-		<li><a href="twitter.com"><img src="assets/social/twitter.png" alt="Twitter icon"></a></li>
-		<li><a href="linkedin.com"><img src="assets/social/linkedin.png" alt="LinkedIn icon"></a></li>
-		<li><a href="foursquare.com"><img src="assets/social/foursquare.png" alt="Foursquare icon"></a></li>
-	</ul>
-</footer>
-</body>
+		</footer>
+	</body>
 </html>
