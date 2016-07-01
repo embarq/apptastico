@@ -38,6 +38,14 @@ a {
 	text-decoration: none;
 }
 
+// My reset
+body * {
+	box-sizing: border-box;
+}
+li, span {
+	display: inline-block;
+}
+
 // Clearfix
 .clearfix::before,
 .clearfix::after {
