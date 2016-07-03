@@ -1,10 +1,8 @@
 .social-link-with-icon {
-	text-indent: -9999;
-	font-size: 0;
+	@extend .css-image;
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	background-repeat: no-repeat;
 }
 
 .social-link {

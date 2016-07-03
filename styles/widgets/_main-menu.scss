@@ -11,8 +11,6 @@
 
 .main-menu {
 	display: inline-block;
-	background-color: #52626e;
-	color: #fff;	// Abstract to header
 
 	.menu-item:not(:last-child) {
 		margin-right: 14px;
