@@ -1,0 +1,36 @@
+.carousel-wrapper {
+    position: relative;
+    width: 1000px;
+}
+
+.carousel {
+    overflow: hidden;
+    .slick-arrow {
+        top: 120px;
+        @extend .button-arrow;
+    }
+    .slick-prev {
+        left: -50px;
+        &:before {
+            background: url(../styles/assets/icons/arrow-left.png) 11px 9px no-repeat;
+        }
+    }
+    .slick-next {
+        right: -50px;
+        &:before {
+            background: url(../styles/assets/icons/arrow-right.png) 14px 9px no-repeat;
+        }
+    }
+    .carousel-items {
+        margin-right: -25px;
+        margin-left: -25px;
+        .carousel-item-wrapper {
+            padding: 20px;
+            .carousel-item {
+                img {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

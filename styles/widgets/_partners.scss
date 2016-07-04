@@ -1,0 +1,13 @@
+.partners-widget {
+	width: 1000px;
+	position: relative;
+}
+
+.carousel-item img {
+	// width: 2px;
+}
+
+.carousel-item-wrapper {
+	// Левый край элемента перекрывается wrapper'ом
+	padding-left: 25px !important;
+}

@@ -1,8 +1,5 @@
 .blog-feed-entry {
 	@extend .feed-entry;
-	&:first-child {
-		color: red;
-	}
 
 	.blog-feed-entry-image {
 		float: left;

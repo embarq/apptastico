@@ -1,5 +1,4 @@
 @import '../components/adventage';
-@import '../components/button';
 
 .adventages {
     margin: 0 80px;
@@ -7,6 +6,6 @@
         float: left;
     }
     .adventage:nth-child(2) {
-        margin: 0 24px;
+        margin: 0 30px;
     }
 }

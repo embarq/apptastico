@@ -1,0 +1,19 @@
+@import '../components/button-arrow';
+
+.projects-widget {
+	h3:before {
+		content: "";
+		display: inline-block;
+		background-repeat: no-repeat;
+		background: url(../styles/assets/icons/projects.png);
+		width: 22px;
+		height: 22px;
+		margin-right: 10px;
+	}
+}
+
+.carousel-item {
+	img {
+		// width: 100%;
+	}
+}
