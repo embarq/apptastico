@@ -1,16 +1,14 @@
 // Stroke for button
 .button-info-wrapper {
-	position: relative;
 	display: inline-block;
 	width: 202px;
-	height: 47px;		// При увеличении значения увеличивается псевдо-border но сьезжает сосездняя строка
-	top: 23px;
+	height: 46px;
+	top: 10px;
 	padding-top: 0px;
 	padding-left: 1px;
 	padding-bottom: 1px;
 	padding-right: 1px;
 	border-radius: 23px;
-	background-color: red;
 	background-image: linear-gradient(to bottom, #216ca0, #164667);
 }
 

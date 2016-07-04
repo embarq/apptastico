@@ -1,6 +1,7 @@
 @import '../components/button-info';
 
 .header-banner {
+	color: #fff;
 	line-height: 26px;
 	width: 468px;
 
@@ -22,5 +23,20 @@
 	h4, p {
 		font-size: 15px;
 		font-weight: 200;
+	}
+
+	.action {
+		position: relative;
+		margin-top: 47px;
+	}
+
+	.left-wrapper {
+		position: absolute;
+		top: 12px;
+		margin-left: 14px;
+
+		.middle-word {
+			margin-right: 8px;
+		}
 	}
 }

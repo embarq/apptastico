@@ -11,8 +11,10 @@ gulp.task('default',['sass', 'sync'], function() {
 
 gulp.task('sass', function() {
 	gulp.src('styles/index.scss')
+		.pipe(sourcemaps.init())
 		.pipe(wait(200))
 		.pipe(sass())
+		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('styles/'))
 		.pipe(browserSync.reload({stream: true}));
 });
