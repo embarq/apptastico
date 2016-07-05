@@ -12,7 +12,11 @@
 .twitter-feed-entry {
 	@extend .feed-entry;
 
-	line-height: 2em;
+	line-height: 1.8em;
+
+	span {
+		display: inline;
+	}
 
 	.tweet-author {
 		color: #515151;
