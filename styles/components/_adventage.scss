@@ -1,11 +1,13 @@
+$adventage-icon-circle-radius: 134px;
+
 .adventage {
     width: 306px;
     text-align: center;
     color: $secondary-color;
     .icon-wrapper {
         position: relative;
-        width: 134px;
-        height: 134px;
+        width: $adventage-icon-circle-radius;
+        height: $adventage-icon-circle-radius;
         margin: 0 auto;
         border: 5px solid $secondary-color;
         border-radius: 50%;

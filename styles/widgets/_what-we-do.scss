@@ -1,26 +1,19 @@
-@import '../components/button-info';
-
 .what-we-do-widget {
     .phone-mockup {
     	float: left;
-        font-size: 0;
         width: 390px;
         height: 450px;
-        text-indent: -9999;
         background-image: url(../styles/assets/icons/iPhone.png);
         background-position: -110px -140px;
         margin-right: 115px;
         margin-top: -76px;
+        @extend .css-image;
     }
     .banner {
         line-height: 26px;
-        width: 980px;   // remove
-        color: #fff;    // inherit
+        width: 980px;   // отступ от изображения слева, но на самом деле от края страницы
+        color: inherit;
         h1 {
-            // Move to _typography.scss
-            font-size: 48px;
-            font-weight: bold;
-
             margin-top: 80px;
             margin-bottom: 22px;
         }
@@ -37,13 +30,51 @@
         }
         .action {
             margin-top: 47px;
+
+            // Stroke for button
             .button-info-wrapper {
                 vertical-align: middle;
+                position: relative;
+                display: inline-block;
+                width: 202px;
+                height: 46px;
+                padding-top: 0;
+                padding-right: 1px;
+                padding-bottom: 1px;
+                padding-left: 1px;
+                border-radius: 23px;
+                background-image: linear-gradient(to bottom, #216ca0, #164667);
+
+                // Shadow of button
+                .button-info:after {
+                    position: absolute;
+                    z-index: -3;
+                    bottom: 0;
+                    left: 20px;
+                    display: block;
+                    width: 160px;
+                    height: 1px;
+                    content: '';
+                    background-color: rgba(0,0,0,.60);
+                    box-shadow: 0 0 30px 3px black;
+                }
+
+                .button-info {
+                    font-size: 14px;
+                    font-weight: bold;
+                    position: absolute;
+                    padding: 10px 45px;
+                    color: #fff;
+                    border-radius: 23px;
+                    background-color: #3d94d1;
+                    box-shadow: inset 0 1px 2px -1px white, inset 0 -2px 10px -1px darken(#3d94d1, 20%);
+                }
             }
+
             .left-wrapper {
                 display: inline-block;
                 margin-left: 14px;
-                padding-top: 6px;
+                padding-top: 4px;
                 vertical-align: middle;
                 .middle-word {
                     margin-right: 12px;
