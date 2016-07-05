@@ -25,7 +25,6 @@ a {
     text-decoration: none;
 }
 
-// My reset
 body * {
     box-sizing: border-box;
 }
@@ -33,11 +32,15 @@ li, span {
     display: inline-block;
 }
 
+img {
+    max-width: 100%;
+}
+
 // Clearfix
 .clearfix::before, .clearfix::after {
+    content: '';
     display: block;
     clear: both;
-    content: '';
 }
 
 // Base

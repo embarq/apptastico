@@ -14,11 +14,13 @@
     }
     .banner {
         line-height: 26px;
-        width: 980px;
-        color: #fff;
+        width: 980px;   // remove
+        color: #fff;    // inherit
         h1 {
+            // Move to _typography.scss
             font-size: 48px;
             font-weight: bold;
+
             margin-top: 80px;
             margin-bottom: 22px;
         }
@@ -34,7 +36,6 @@
             margin-bottom: 24px;
         }
         .action {
-            position: relative;
             margin-top: 47px;
             .button-info-wrapper {
                 vertical-align: middle;

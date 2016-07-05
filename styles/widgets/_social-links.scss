@@ -3,8 +3,9 @@
 .social-links {
     li {
         float: left;
-        &:not(:last-child) {
-            margin-right: 11px;
+
+        & + li {
+            margin-left: 11px;
         }
     }
 }
