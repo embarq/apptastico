@@ -10,15 +10,12 @@
 // </article>
 
 .twitter-feed-entry {
-	@extend .feed-entry;
-
-	line-height: 1.8em;
-
-	span {
-		display: inline;
-	}
-
-	.tweet-author {
-		color: #515151;
-	}
+    line-height: 1.8em;
+    @extend .feed-entry;
+    span {
+        display: inline;
+    }
+    .tweet-author {
+        color: #515151;
+    }
 }

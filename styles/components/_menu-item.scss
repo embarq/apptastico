@@ -1,17 +1,13 @@
 .menu-item {
-	padding: 6px 19px;
-
-	a {
-		color: inherit;
-		font-size: 15px;
-	}
-
-	&.active, &:hover {
-		$semi-black: rgba(#000, .2);
-		$deeper-blue: rgba(#2f2f2f, .2);
-		border-radius: 13px;
-		background-color: $deeper-blue;
-		background-image: linear-gradient(0deg, lighten($deeper-blue, 20%) 20%, darken($deeper-blue, 80%));
-		box-shadow: inset 0 2px 2px $semi-black, 0 1px 1px lighten($deeper-blue, 70%);
-	}
+    padding: 6px 19px;
+    a {
+        font-size: 15px;
+        color: inherit;
+    }
+    &.active, &:hover {
+        border-radius: 13px;
+        background-color: $deeper-blue;
+        background-image: linear-gradient(0deg, lighten($deeper-blue, 20%) 20%, darken($deeper-blue, 80%));
+        box-shadow: inset 0 2px 2px $semi-black, 0 1px 1px lighten($deeper-blue, 70%);
+    }
 }

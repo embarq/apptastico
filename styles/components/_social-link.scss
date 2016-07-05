@@ -1,25 +1,25 @@
 .social-link-with-icon {
-	@extend .css-image;
-	display: inline-block;
-	width: 30px;
-	height: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    @extend .css-image;
 }
 
 .social-link {
-	&.fb {
-		@extend .social-link-with-icon;
-		background-image: url(../styles/assets/icons/social/fb.jpg);
-	}
-	&.tw {
-		@extend .social-link-with-icon;
-		background-image: url(../styles/assets/icons/social/tw.jpg);
-	}
-	&.li {
-		@extend .social-link-with-icon;
-		background-image: url(../styles/assets/icons/social/li.jpg);
-	}
-	&.db {
-		@extend .social-link-with-icon;
-		background-image: url(../styles/assets/icons/social/db.jpg);
-	}
+    &.fb {
+        background-image: url(../styles/assets/icons/social/fb.jpg);
+        @extend .social-link-with-icon;
+    }
+    &.tw {
+        background-image: url(../styles/assets/icons/social/tw.jpg);
+        @extend .social-link-with-icon;
+    }
+    &.li {
+        background-image: url(../styles/assets/icons/social/li.jpg);
+        @extend .social-link-with-icon;
+    }
+    &.db {
+        background-image: url(../styles/assets/icons/social/db.jpg);
+        @extend .social-link-with-icon;
+    }
 }

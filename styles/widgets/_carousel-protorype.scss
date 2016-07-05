@@ -6,17 +6,17 @@
 .carousel {
     overflow: hidden;
     .slick-arrow {
-        top: 120px;
+        top: 125px;
         @extend .button-arrow;
     }
     .slick-prev {
-        left: -50px;
+        left: -74px;
         &:before {
             background: url(../styles/assets/icons/arrow-left.png) 11px 9px no-repeat;
         }
     }
     .slick-next {
-        right: -50px;
+        right: -25px;
         &:before {
             background: url(../styles/assets/icons/arrow-right.png) 14px 9px no-repeat;
         }

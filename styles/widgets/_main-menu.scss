@@ -1,9 +1,8 @@
 @import '../components/menu-item';
 
 .main-menu {
-	display: inline-block;
-
-	.menu-item:not(:last-child) {
-		margin-right: 9px;
-	}
+    display: inline-block;
+    .menu-item:not(:last-child) {
+        margin-right: 9px;
+    }
 }

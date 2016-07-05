@@ -1,31 +1,30 @@
 @import '../components/button-arrow';
 
 .projects-widget {
-	width: 1100px;
-
-	h3 {
-		padding-bottom: -2px;
-	}
-
-	h3:before {
-		content: "";
-		display: inline-block;
-		background-repeat: no-repeat;
-		background: url(../styles/assets/icons/projects.png);
-		width: 22px;
-		height: 22px;
-		margin-right: 10px;
-	}
-	
-	.carousel-items {
-		.carousel-item-wrapper {
-			padding: 25px 0px;
-
-			.carousel-item {
-				img {
-					margin: 0;
-				}
-			}
-		}
-	}
+    width: 1100px;
+    h3 {
+        padding-bottom: -2px;
+        margin-bottom: -3px;
+    }
+    h3:before {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+        content: '';
+        background: url(../styles/assets/icons/projects.png);
+        background-repeat: no-repeat;
+    }
+    .carousel-items {
+        .carousel-item-wrapper {
+            padding: 25px 0;
+            .carousel-item {
+                img {
+                    margin: 0;
+                    border: 3px solid #fff;
+                    box-shadow: 0 1px 2px #ccc;
+                }
+            }
+        }
+    }
 }

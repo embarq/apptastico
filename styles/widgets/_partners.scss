@@ -1,16 +1,15 @@
 .partners-widget {
-	width: 1000px;
-	position: relative;
-	border-bottom: 1px solid #c3c3c3;
-	background-color: #ececec;
-	background-image: linear-gradient(#ececec, darken(#ececec, 2%));
-
-	.carousel-item img {
-		margin: 0 auto;
-	}
+    position: relative;
+    width: 1000px;
+    border-bottom: 1px solid #c3c3c3;
+    background-color: #ececec;
+    background-image: linear-gradient(#ececec, darken(#ececec, 2%));
+    .carousel-item img {
+        margin: 0 auto;
+    }
 }
 
 .carousel-item-wrapper {
-	// Левый край элемента перекрывается wrapper'ом
-	// padding-left: 25px !important;
+    // Левый край элемента перекрывается wrapper'ом
+    // padding-left: 25px !important;
 }

@@ -1,13 +1,11 @@
 .feed-entry {
-	color: #888888;
-	font-size: 13px;
-
-	.date {
-		font-size: 11px;
-		line-height: 20px;
-	}
-
-	&:not(:last-child) {
-		margin-bottom: 28px;
-	}
+    font-size: 13px;
+    color: #888;
+    .date {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    &:not(:last-child) {
+        margin-bottom: 28px;
+    }
 }
