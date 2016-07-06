@@ -76,22 +76,47 @@
 			</div>
 		</div>
 	</div>
-</div>
-<script src="libs/jquery-3.0.0.min.js"></script>
-<script src="libs/slick/slick/slick.min.js"></script>
-<script>
-	$(document).ready(function() {
-		$('.partners-widget .carousel-items').slick({
-			arrows: false,
-			autoplay: true,
-			autoplaySpeed: 1e3,
-			cssEase: "ease-out",
-			draggable: false,
-			infinite: true,
-			slidesToShow: 5,
-			slidesToScroll: 2
+	<div class="wrapper">
+		<div class="adventages clearfix">
+			<section class="adventage">
+				<div class="icon-wrapper">
+					<img src="../styles/assets/icons/ui.png" alt="Engaging interfaces" class="icon">
+				</div>
+				<h3>Engaging interfaces</h3>
+				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+				<a href="#" class="button">Read more</a>
+			</section>
+			<section class="adventage">
+				<div class="icon-wrapper">
+					<img src="../styles/assets/icons/ux.png" alt="Usable designs" class="icon">
+				</div>
+				<h3>Usable designs</h3>
+				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+				<a href="#" class="button">Read more</a>
+			</section>
+			<section class="adventage">
+				<div class="icon-wrapper"><img src="../styles/assets/icons/development.png" alt="Solid development" class="icon"></div>
+				<h3>Solid development</h3>
+				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+				<a href="#" class="button">Read more</a>
+			</section>
+		</div> <!-- advantages -->
+	</div> <!-- wrapper --> 
+	<script src="libs/jquery-3.0.0.min.js"></script>
+	<script src="libs/slick/slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.partners-widget .carousel-items').slick({
+				arrows: false,
+				autoplay: true,
+				autoplaySpeed: 1e3,
+				cssEase: "ease-out",
+				draggable: false,
+				infinite: true,
+				slidesToShow: 5,
+				slidesToScroll: 2
+			});
 		});
-	});
-</script>
+	</script>
 </body>
 </html>

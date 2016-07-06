@@ -1,7 +1,8 @@
 $adventage-icon-circle-radius: 134px;
 
 .adventages {
-    margin: 0 80px;
+    padding-top: 95px;
+
     .adventage {
         float: left;
         width: 306px;
@@ -52,7 +53,7 @@ $adventage-icon-circle-radius: 134px;
             text-shadow: 0 -1.5px darken($primary-color, 15%);
         }
         &:nth-child(2) {
-            margin: 0 30px;
+            margin: 0 29px;
         }
     }
 }
