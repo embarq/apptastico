@@ -5,12 +5,15 @@
         margin-bottom: 19px;
     }
     h3:before {
+        content: '';
         display: block;
         float: left;
         width: 0;
         height: 0;
         margin-right: 10px;
-        content: '';
         background-repeat: no-repeat;
+    }
+    .primary-link {
+        font-size: 13px;
     }
 }
