@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var wait = require('gulp-wait');
 var sourcemaps = require('gulp-sourcemaps');
+var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync');
 
 gulp.task('default',['sass', 'sync'], function() {
@@ -14,6 +15,9 @@ gulp.task('sass', function() {
 		.pipe(sourcemaps.init())
 		.pipe(wait(200))
 		.pipe(sass())
+		.pipe(autoprefixer({
+			browsers: ['last 3 versions']
+		}))
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('styles/'))
 		.pipe(browserSync.reload({stream: true}));
