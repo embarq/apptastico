@@ -25,7 +25,7 @@ a {
     text-decoration: none;
 }
 
-body * {
+* {
     box-sizing: border-box;
 }
 li, span {
@@ -58,6 +58,6 @@ header {
     display: block;
     width: 0;
     height: 0;
-    text-indent: -9999;
+    // text-indent: -9999;
     background-repeat: no-repeat;
 }

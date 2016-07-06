@@ -1,12 +1,12 @@
 .what-we-do-widget {
     .phone-mockup {
-    	float: left;
+        float: left;
         width: 390px;
         height: 450px;
+        margin-top: -76px;
+        margin-right: 115px;
         background-image: url(../styles/assets/icons/iPhone.png);
         background-position: -110px -140px;
-        margin-right: 115px;
-        margin-top: -76px;
         @extend .css-image;
     }
     .banner {
@@ -30,10 +30,8 @@
         }
         .action {
             margin-top: 47px;
-
             // Stroke for button
             .button-info-wrapper {
-                vertical-align: middle;
                 position: relative;
                 display: inline-block;
                 width: 202px;
@@ -42,11 +40,12 @@
                 padding-right: 1px;
                 padding-bottom: 1px;
                 padding-left: 1px;
+                vertical-align: middle;
                 border-radius: 23px;
                 background-image: linear-gradient(to bottom, #216ca0, #164667);
-
                 // Shadow of button
                 .button-info:after {
+                    content: '';
                     position: absolute;
                     z-index: -3;
                     bottom: 0;
@@ -54,11 +53,9 @@
                     display: block;
                     width: 160px;
                     height: 1px;
-                    content: '';
                     background-color: rgba(0,0,0,.60);
                     box-shadow: 0 0 30px 3px black;
                 }
-
                 .button-info {
                     font-size: 14px;
                     font-weight: bold;
@@ -70,7 +67,6 @@
                     box-shadow: inset 0 1px 2px -1px white, inset 0 -2px 10px -1px darken(#3d94d1, 20%);
                 }
             }
-
             .left-wrapper {
                 display: inline-block;
                 margin-left: 14px;

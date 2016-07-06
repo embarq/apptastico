@@ -14,7 +14,7 @@ body {
 
 h1 {
     font-size: 48px;
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 h2 {
@@ -32,6 +32,12 @@ h4 {
     color: #5c5c5c;
 }
 
+time {
+    font-size: 11px;
+    line-height: 20px;
+    color: #b0b0b0;
+}
+
 .primary-link {
     color: #3c92d0;
 }
@@ -40,11 +46,11 @@ h4 {
     color: #fff;
     border-bottom: 1px solid #fff;
     &:before {
+        content: '';
         display: inline-block;
         width: 16px;
         height: 12px;
         margin-right: 9px;
-        content: '';
         background: url(../styles/assets/icons/monitor.png) no-repeat;
     }
 }
@@ -53,7 +59,3 @@ h4 {
     color: #a4a4a4;
 }
 
-.date {
-    font-family: $secondary-font;
-    color: #b0b0b0;
-}
