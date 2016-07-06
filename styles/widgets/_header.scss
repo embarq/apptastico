@@ -1,8 +1,9 @@
 header {
-    height: 139px;
+    width: 995px;
     padding-top: 39px;
+    padding-bottom: 63px;
     color: #fff;
-    background-color: #52626e;
+    
     .logo {
         float: left;
         width: 137px;
@@ -12,6 +13,6 @@ header {
         @extend .css-image;
     }
     nav {
-        margin-top: 5px;
+        margin-top: 6px;
     }
 }
