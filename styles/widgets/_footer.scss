@@ -1,0 +1,16 @@
+@import './social-links';
+
+.footer {
+	margin-top: 55px;
+	padding-top: 15px;
+	border-top: 1px solid #cecece;
+
+	.text-muted {
+		font-size: 13px;
+	}
+
+	.social-links {
+		display: inline-block;
+		float: right;
+	}
+}

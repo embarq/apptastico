@@ -16,30 +16,25 @@
 }
 
 .carousel-wrapper {
-    width: 1000px;
-}
-
-.carousel {
-    overflow: hidden;
     .slick-arrow {
-        top: 125px;
+        top: 119px;
         @extend .button-arrow;
     }
     .slick-prev {
         left: -74px;
-        &:before {
+        &::before {
             background: url(../styles/assets/icons/arrow-left.png) 11px 9px no-repeat;
         }
     }
     .slick-next {
-        right: -35px;
-        &:before {
+        right: -71px;
+        &::before {
             background: url(../styles/assets/icons/arrow-right.png) 14px 9px no-repeat;
         }
     }
     .carousel-items {
         .carousel-item-wrapper {
-            padding: 25px 25px;
+            padding: 25px 0;
             .carousel-item {
                 img {
                     margin: 0 auto;

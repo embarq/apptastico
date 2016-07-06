@@ -53,6 +53,12 @@ img {
     background-image: url(assets/top-bg.png);
 }
 
+.mid-wrapper {
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-image: linear-gradient(lighten(#ececec, 2%), white); 
+}
+
 header {
     color: #fff;
 }
