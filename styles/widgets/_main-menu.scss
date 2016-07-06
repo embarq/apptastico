@@ -9,6 +9,9 @@
         & + .menu-item {
             margin-left: 9px;
         }
+        & + .menu-item:last-child {
+            margin-left: 8px;
+        }
         &.active, &:hover {
             border-radius: 13px;
             background-color: $deeper-blue;
