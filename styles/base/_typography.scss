@@ -1,12 +1,3 @@
-@import '../fonts/fonts';
-$primary-font: 'Helvetica Neue';
-$secondary-font: Arial;
-$primary-color: #5096ce;
-$secondary-color: #8395a2;
-$additional-color: #4b5a65;
-$semi-black: rgba(#000, .2);
-$deeper-blue: rgba(#2f2f2f, .2);
-
 body {
     font-family: $primary-font;
     font-weight: lighter;
@@ -52,7 +43,7 @@ time {
         width: 16px;
         height: 12px;
         margin-right: 9px;
-        background: url(../styles/assets/icons/monitor.png) no-repeat;
+        background: url(../assets/icons/monitor.png) no-repeat;
     }
 }
 
