@@ -24,3 +24,18 @@ header {
     height: 0;
     background-repeat: no-repeat;
 }
+
+// Components
+@import '../components/feed-entry-prototype';
+@import '../widgets/feed-prototype';
+@import '../widgets/carousel-protorype';
+
+// Widgets
+@import '../widgets/main-menu';
+@import '../widgets/what-we-do';
+@import '../widgets/header';
+@import '../widgets/partners';
+@import '../widgets/adventages';
+@import '../widgets/projects';
+@import '../widgets/feeds';
+@import '../widgets/social-links';
