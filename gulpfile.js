@@ -14,6 +14,7 @@ gulp.task('sass', function() {
 		.pipe(sourcemaps.init())
 		.pipe(wait(200))
 		.pipe(sass())
+		.on('error', sass.logError)
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('styles/'))
 		.pipe(browserSync.reload({stream: true}));
