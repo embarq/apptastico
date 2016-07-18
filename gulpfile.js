@@ -15,9 +15,7 @@ gulp.task('sass', function() {
 		.pipe(sourcemaps.init())
 		.pipe(wait(200))
 		.pipe(sass())
-		.pipe(autoprefixer({
-			browsers: ['last 3 versions']
-		}))
+		.on('error', sass.logError)
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('styles/'))
 		.pipe(browserSync.reload({stream: true}));
