@@ -1,56 +1,16 @@
-// Mayer reset
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    font: inherit;
-    font-size: 100%;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    border: 0;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-a {
-    text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
-}
-li, span {
-    display: inline-block;
-}
-
-img {
-    max-width: 100%;
-}
-
-// Clearfix
 .clearfix::before, .clearfix::after {
     content: '';
     display: block;
     clear: both;
 }
 
-// Base
 .wrapper {
     width: 976px;
     margin: 0 auto;
 }
 
 .top-wrapper {
-    background-image: url(assets/top-bg.png);
+    background-image: url(../assets/top-bg.png);
 }
 
 .mid-wrapper {
@@ -70,3 +30,19 @@ header {
     height: 0;
     background-repeat: no-repeat;
 }
+
+// Components
+@import '../components/feed-entry-prototype';
+@import '../widgets/feed-prototype';
+@import '../widgets/carousel-protorype';
+
+// Widgets
+@import '../widgets/main-menu';
+@import '../widgets/what-we-do';
+@import '../widgets/header';
+@import '../widgets/partners';
+@import '../widgets/adventages';
+@import '../widgets/projects';
+@import '../widgets/feeds';
+@import '../widgets/social-links';
+@import '../widgets/footer';

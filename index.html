@@ -195,7 +195,7 @@
 				<a href="#" class="primary-link">Follow us on twitter</a>
 			</section>
 		</div>
-		<div class="footer clearfix">
+		<footer class="clearfix">
 			<span class="text-muted">&copy; Christoffer Jensen 2013</span>
 			<ul class="social-links clearfix">
 				<li>
@@ -211,28 +211,10 @@
 					<a href="dribble.com" class="social-link db">dribble.com</a>
 				</li>
 			</ul>
-		</div>
+		</footer>
 	</div> <!-- wrapper -->
 	<script src="libs/jquery-3.0.0.min.js"></script>
 	<script src="libs/slick/slick/slick.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$('.partners-widget .carousel-items').slick({
-				arrows: false,
-				autoplay: true,
-				autoplaySpeed: 1e3,
-				cssEase: "ease-out",
-				infinite: true,
-				slidesToShow: 5,
-				slidesToScroll: 2
-			});
-			$('.projects-widget .carousel-items').slick({
-				appendArrows: $('.projects-widget'),
-				infinite: true,
-				slidesToShow: 4,
-				slidesToScroll: 2
-			});
-		});
-	</script>
+	<script src="scripts/index.js"></script>
 </body>
 </html>

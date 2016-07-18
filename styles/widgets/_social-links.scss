@@ -14,19 +14,19 @@
 		float: left;
 
 	    &.fb {
-	        background-image: url(../styles/assets/icons/social/fb.jpg);
+	        background-image: url(../assets/icons/social/fb.jpg);
 	        @extend .social-link-with-icon;
 	    }
 	    &.tw {
-	        background-image: url(../styles/assets/icons/social/tw.jpg);
+	        background-image: url(../assets/icons/social/tw.jpg);
 	        @extend .social-link-with-icon;
 	    }
 	    &.li {
-	        background-image: url(../styles/assets/icons/social/li.jpg);
+	        background-image: url(../assets/icons/social/li.jpg);
 	        @extend .social-link-with-icon;
 	    }
 	    &.db {
-	        background-image: url(../styles/assets/icons/social/db.jpg);
+	        background-image: url(../assets/icons/social/db.jpg);
 	        @extend .social-link-with-icon;
 	    }
 	}
