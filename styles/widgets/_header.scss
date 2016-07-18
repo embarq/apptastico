@@ -1,7 +1,6 @@
 header {
     position: relative;
-    padding-top: 39px;
-    padding-bottom: 63px;
+    padding: 39px 0;
     color: #fff;
     .logo {
         position: absolute;
@@ -13,8 +12,8 @@ header {
     }
     nav {
         position: absolute;
-        top: 45%;
         right: 0;
+        margin-top: 8px;
     }
 }
 
