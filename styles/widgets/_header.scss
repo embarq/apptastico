@@ -1,18 +1,36 @@
 header {
-    width: 995px;
-    padding-top: 39px;
-    padding-bottom: 63px;
+    position: relative;
+    padding: 39px 0;
     color: #fff;
-    
     .logo {
-        float: left;
+        position: absolute;
+        left: 0;
         width: 137px;
         height: 38px;
-        margin-right: 502px;
-        background: url(../styles/assets/logo.png) no-repeat;
+        background: url(../assets/logo.png) no-repeat;
         @extend .css-image;
     }
     nav {
-        margin-top: 6px;
+        position: absolute;
+        right: 0;
+        margin-top: 8px;
     }
 }
+
+/*
+<div class="top-wrapper">
+    <div class="wrapper">
+        <header>
+            <div class="logo">Logo</div>
+            <nav>
+                <ul class="main-menu">
+                    <li class="menu-item active"><a href="#">Home</a></li>
+                    <li class="menu-item"><a href="#">About</a></li>
+                    <li class="menu-item"><a href="#">Work</a></li>
+                    <li class="menu-item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>  <!-- wrapper -->
+</div> <!-- top-wrapper -->
+*/
