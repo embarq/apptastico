@@ -9,10 +9,11 @@
   "author": "emb",
   "license": "ISC",
   "devDependencies": {
-  	"gulp": "*",
-  	"gulp-wait": "*",
-  	"gulp-sass": "*",
-  	"gulp-sourcemaps": "*",
-  	"browser-sync": "*"
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-wait": "*"
   }
 }

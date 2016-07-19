@@ -1,4 +1,5 @@
 .main-menu {
+    width: 1005px;
     .menu-item {
         a {
             font-size: 15px;
@@ -8,6 +9,9 @@
         }
         & + .menu-item {
             margin-left: 9px;
+        }
+        & + .menu-item:last-child {
+            margin-left: 8px;
         }
         &.active, &:hover {
             border-radius: 13px;
