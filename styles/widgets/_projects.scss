@@ -11,7 +11,7 @@
         height: 22px;
         margin-top: -10px;
         margin-right: 10px;
-        background: url(../styles/assets/icons/projects.png);
+        background: url(../assets/icons/projects.png);
         background-repeat: no-repeat;
     }
     .carousel-items {
@@ -19,6 +19,7 @@
             .carousel-item {
                 overflow: hidden;
                 width: 220px;
+                margin: 0 auto;
                 border: 3px solid #fff;
                 box-shadow: 0 1px 2px #222;
                 img {

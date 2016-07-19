@@ -6,28 +6,26 @@
 }
 
 .social-links {
-	li + li {
-		margin-left: 7px;
-	}
-
-	.social-link {
-		float: left;
-
-	    &.fb {
-	        background-image: url(../styles/assets/icons/social/fb.jpg);
-	        @extend .social-link-with-icon;
-	    }
-	    &.tw {
-	        background-image: url(../styles/assets/icons/social/tw.jpg);
-	        @extend .social-link-with-icon;
-	    }
-	    &.li {
-	        background-image: url(../styles/assets/icons/social/li.jpg);
-	        @extend .social-link-with-icon;
-	    }
-	    &.db {
-	        background-image: url(../styles/assets/icons/social/db.jpg);
-	        @extend .social-link-with-icon;
-	    }
-	}
+    li + li {
+        margin-left: 7px;
+    }
+    .social-link {
+        float: left;
+        &.fb {
+            background-image: url(../assets/icons/social/fb.jpg);
+            @extend .social-link-with-icon;
+        }
+        &.tw {
+            background-image: url(../assets/icons/social/tw.jpg);
+            @extend .social-link-with-icon;
+        }
+        &.li {
+            background-image: url(../assets/icons/social/li.jpg);
+            @extend .social-link-with-icon;
+        }
+        &.db {
+            background-image: url(../assets/icons/social/db.jpg);
+            @extend .social-link-with-icon;
+        }
+    }
 }

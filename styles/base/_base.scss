@@ -15,7 +15,6 @@
 
 .mid-wrapper {
     padding-top: 95px;
-    padding-bottom: 95px;
     background-image: linear-gradient(lighten(#ececec, 2%), white); 
 }
 
@@ -45,3 +44,4 @@ header {
 @import '../widgets/projects';
 @import '../widgets/feeds';
 @import '../widgets/social-links';
+@import '../widgets/footer';
