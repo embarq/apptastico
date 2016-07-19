@@ -1,5 +1,4 @@
 .partners-widget {
-    // margin-top: -1px;
     width: 100%;
     border-bottom: 1px solid #c3c3c3;
     background-color: #ececec;
@@ -9,12 +8,8 @@
         .carousel {
             width: 976px;
             margin: 0 auto;
-            .carousel-items {
-               // padding: 0 0px;
-
-               .carousel-item-wrapper {
-                  padding: 15px 5px;
-                }
+            .carousel-items .carousel-item-wrapper {
+                padding: 15px 5px;
             }
         }
     }
