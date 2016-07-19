@@ -23,16 +23,18 @@
     .slick-prev {
         left: -74px;
         &::before {
-            background: url(../styles/assets/icons/arrow-left.png) 11px 9px no-repeat;
+            background: url(../assets/icons/arrow-left.png) 11px 9px no-repeat;
         }
     }
     .slick-next {
         right: -71px;
         &::before {
-            background: url(../styles/assets/icons/arrow-right.png) 14px 9px no-repeat;
+            background: url(../assets/icons/arrow-right.png) 14px 9px no-repeat;
         }
     }
     .carousel-items {
+        margin-right: -25px;
+        margin-left: 0px;
         .carousel-item-wrapper {
             padding: 25px 0;
             .carousel-item {
