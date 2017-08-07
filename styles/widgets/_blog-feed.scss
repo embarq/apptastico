@@ -1,15 +1,10 @@
 @import '../components/blog-feed-entry';
 
 .blog-feed {
-	@extend .feed;
-	
-	h3:before {
-		background-image: url(../styles/assets/icons/rss.jpg);
-		width: 20px;
-		height: 20px;
-	}
-
-	.primary-link {
-		font-size: 13px;
-	}
+    @extend .feed;
+    h3:before {
+        width: 20px;
+        height: 20px;
+        background-image: url(../assets/icons/rss.jpg);
+    }
 }

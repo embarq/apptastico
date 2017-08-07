@@ -1,34 +1,43 @@
-.carousel-wrapper {
-    position: relative;
-    width: 1000px;
+.button-arrow {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #c1c8cc;
+    border-radius: 50%;
+    background-color: #e3e7ea;
+    background-image: radial-gradient(lighten(#e3e7ea, 80%), #e3e7ea), linear-gradient(lighten(#e3e7ea, 5%), #e3e7ea 90%);
+    &::before {
+        // Resets `slick` defaults
+        content: '';
+        display: block;
+        width: 38px;
+        height: 38px;
+        opacity: 1;
+    }
 }
 
-.carousel {
-    overflow: hidden;
+.carousel-wrapper {
     .slick-arrow {
-        top: 120px;
+        top: 119px;
         @extend .button-arrow;
     }
     .slick-prev {
-        left: -50px;
-        &:before {
-            background: url(../styles/assets/icons/arrow-left.png) 11px 9px no-repeat;
+        left: -74px;
+        &::before {
+            background: url(../assets/icons/arrow-left.png) 11px 9px no-repeat;
         }
     }
     .slick-next {
-        right: -50px;
-        &:before {
-            background: url(../styles/assets/icons/arrow-right.png) 14px 9px no-repeat;
+        right: -71px;
+        &::before {
+            background: url(../assets/icons/arrow-right.png) 14px 9px no-repeat;
         }
     }
     .carousel-items {
-        margin-right: -25px;
-        margin-left: -25px;
         .carousel-item-wrapper {
-            padding: 20px;
+            padding: 25px 0;
             .carousel-item {
                 img {
-                    margin: 0;
+                    margin: 0 auto;
                 }
             }
         }

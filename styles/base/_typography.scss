@@ -1,54 +1,53 @@
-@import '../fonts/fonts';
-$primary-font: 'Helvetica Neue';
-$secondary-font: Arial;
-$primary-color: #5096ce;
-$secondary-color: #8395a2;
-$additional-color: #4b5a65;
-
 body {
-  font-family: $primary-font;
-  font-weight: lighter;
+    font-family: $primary-font;
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
 }
 
 h2 {
-	font-size: 36px;
-	color: #4c5b66;
+    font-size: 36px;
+    color: #4c5b66;
 }
 
 h3 {
-	font-size: 20px;
-	color: $additional-color;
+    font-size: 20px;
+    color: $additional-color;
 }
 
 h4 {
-	font-size: 15px;
-	color: #5c5c5c;
+    font-size: 15px;
+    color: #5c5c5c;
+}
+
+time {
+    font-size: 11px;
+    line-height: 20px;
+    color: #b0b0b0;
 }
 
 .primary-link {
-	color: #3c92d0;
+    color: #3c92d0;
 }
 
 .link-info {
-	color: #fff;
-	border-bottom: 1px solid #fff;
-
-	&:before {
-		display: inline-block;
-		content: '';
-		width: 16px;
-		height: 12px;
-		margin-right: 9px;
-
-		background: url(../styles/assets/icons/monitor.png) no-repeat;
-	}
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    &:before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 12px;
+        margin-right: 9px;
+        background: url(../assets/icons/monitor.png) no-repeat;
+    }
 }
 
 .text-muted {
-	color: #a4a4a4;
+    color: #a4a4a4;
 }
 
-.date {
-	color: #b0b0b0;
-	font-family: $secondary-font;
-}

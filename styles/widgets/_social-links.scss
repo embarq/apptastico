@@ -1,26 +1,31 @@
-@import '../components/social-link';
-/* 
-<ul class="social-links clearfix">
-	<li>
-		<a href="facebook.com" class="social-link fb">facebook.com</a>
-	</li>
-	<li>
-		<a href="twitter.com" class="social-link tw">twitter.com</a>
-	</li>
-	<li>
-		<a href="linkedin.com" class="social-link li">linkedin.com</a>
-	</li>
-	<li>
-		<a href="dribble.com" class="social-link db">dribble.com</a>
-	</li>
-</ul>
- */
-.social-links {
-	li {
-		float: left;
+.social-link-with-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    @extend .css-image;
+}
 
-		&:not(:last-child) {
-			margin-right: 5px;
-		}
-	}
+.social-links {
+    li + li {
+        margin-left: 7px;
+    }
+    .social-link {
+        float: left;
+        &.fb {
+            background-image: url(../assets/icons/social/fb.jpg);
+            @extend .social-link-with-icon;
+        }
+        &.tw {
+            background-image: url(../assets/icons/social/tw.jpg);
+            @extend .social-link-with-icon;
+        }
+        &.li {
+            background-image: url(../assets/icons/social/li.jpg);
+            @extend .social-link-with-icon;
+        }
+        &.db {
+            background-image: url(../assets/icons/social/db.jpg);
+            @extend .social-link-with-icon;
+        }
+    }
 }
