@@ -35,8 +35,13 @@
     .carousel-items {
         .carousel-item-wrapper {
             padding: 25px 0;
+            &:focus {
+                outline: none;
+            }
             .carousel-item {
                 img {
+                    max-width: 215px;
+                    max-height: 154px;
                     margin: 0 auto;
                 }
             }
